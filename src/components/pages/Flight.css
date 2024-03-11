@@ -1,0 +1,54 @@
+.flight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    width: 100%;
+}
+
+.flight > h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.airport {
+    padding: 2px;
+}
+
+
+
+.labelTitle {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.returnDate {
+    padding-left: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.departDate {
+    padding-left: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#plane {
+    padding: 8px;
+}
+
+#planeHome {
+    padding: 8px;
+    transform: scaleX(-1);
+}
+
+#travelBtn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+}
